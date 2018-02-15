@@ -15,13 +15,21 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from todo.api import TodoResource, TodoListResource
+from tastypie.api import Api
+from todo.api import TodoResource, TodoListResource, UserResource
 
-todo_resource = TodoResource()
-todolist_resource = TodoListResource()
+v1_api = Api(api_name='v1')
+v1_api.register(TodoResource())
+v1_api.register(TodoListResource())
+v1_api.register(UserResource())
+# todo_resource = TodoResource()
+# todolist_resource = TodoListResource()
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/', include(todo_resource.urls)),
-    url(r'^api/', include(todolist_resource.urls)),
+    # url(r'^api/', include(todo_resource.urls)),
+    # url(r'^api/', include(todolist_resource.urls)),
+    url(r'^api/', include(v1_api.urls)),
+    # url(r'^login/', login_user),
+    # url(r'^signup/', signup_user),
 ]

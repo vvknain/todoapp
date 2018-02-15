@@ -33,6 +33,7 @@ class Todo(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     deadline = models.DateField(null=True, blank=True)
     todolist = models.ForeignKey(TodoList)
+    done = models.BooleanField(default=False)
 
     def __str__(self):
         return self.content
