@@ -17,6 +17,8 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from tastypie.api import Api
 from todo.api import TodoResource, TodoListResource, UserResource
+# from todoapp.views import signup_user
+# from django.contrib.auth.views import login, logout
 
 v1_api = Api(api_name='v1')
 v1_api.register(TodoResource())
@@ -30,6 +32,7 @@ urlpatterns = [
     # url(r'^api/', include(todo_resource.urls)),
     # url(r'^api/', include(todolist_resource.urls)),
     url(r'^api/', include(v1_api.urls)),
-    # url(r'^login/', login_user),
+    # url(r'^accounts/login/$', login),
     # url(r'^signup/', signup_user),
+    # url(r'^accounts/logout/$', logout),
 ]

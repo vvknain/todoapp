@@ -10,9 +10,6 @@ from django.db import models
 class User(AbstractUser):
     pass
 
-    class Admin:
-        pass
-
 
 class TodoList(models.Model):
     title = models.CharField(max_length=50)

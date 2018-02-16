@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.contrib import admin
+from django.contrib import admin, auth
 from .models import Todo, TodoList, User
 
 
@@ -19,6 +19,6 @@ class TodoAdmin(admin.ModelAdmin):
 
 admin.site.register(Todo, TodoAdmin)
 admin.site.register(TodoList, TodolistAdmin)
-admin.site.register(User)
+admin.site.register(User, auth.admin.UserAdmin)
 
 # Register your models here.
