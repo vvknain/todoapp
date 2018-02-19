@@ -36,4 +36,4 @@ class Todo(models.Model):
         return self.content
 
     class Meta:
-        ordering = ["created"]
+        ordering = ["deadline"]
