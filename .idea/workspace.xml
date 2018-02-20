@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c264b190-a5e9-42ad-8ef4-2a34ea7bd6dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/todo/api.py" afterPath="$PROJECT_DIR$/todo/api.py" />
-      <change beforePath="$PROJECT_DIR$/todo/tests.py" afterPath="$PROJECT_DIR$/todo/tests.py" />
+      <change beforePath="$PROJECT_DIR$/todoapp/views.py" afterPath="$PROJECT_DIR$/todoapp/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,13 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="159" column="42" lean-forward="false" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+            <state relative-caret-position="464">
+              <caret line="147" column="62" lean-forward="true" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="62" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todoapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +124,7 @@
         <option value="$PROJECT_DIR$/todo/models.py" />
         <option value="$PROJECT_DIR$/todo/api.py" />
         <option value="$PROJECT_DIR$/todo/tests.py" />
+        <option value="$PROJECT_DIR$/todoapp/views.py" />
       </list>
     </option>
   </component>
@@ -153,11 +164,6 @@
             <path>
               <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="todoapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoapp" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
@@ -660,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todoapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -720,10 +719,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="159" column="42" lean-forward="false" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+        <state relative-caret-position="464">
+          <caret line="147" column="62" lean-forward="true" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="62" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

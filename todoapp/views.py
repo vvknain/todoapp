@@ -38,14 +38,14 @@ from django.contrib.auth.forms import UserCreationForm
 #     return HttpResponse(html)
 
 
-def signup_user(request):
-    form = UserCreationForm()
-    if request.method == 'POST':
-        data = request.POST.copy()
-        errors = form.get_validation_errors(data)
-        if not errors:
-            new_user = form.save(data)
-            return HttpResponseRedirect('/')
-    else:
-        data, errors = {}, {}
-    return render_to_response()
+# def signup_user(request):
+#     form = UserCreationForm()
+#     if request.method == 'POST':
+#         data = request.POST.copy()
+#         errors = form.get_validation_errors(data)
+#         if not errors:
+#             new_user = form.save(data)
+#             return HttpResponseRedirect('/')
+#     else:
+#         data, errors = {}, {}
+#     return render_to_response()
